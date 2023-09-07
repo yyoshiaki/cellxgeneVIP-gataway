@@ -1,7 +1,7 @@
 ## Build
 
 ```
-docker build -t cellxgenevipgataway:latest .
+docker build -t cellxgenevipgateway:latest .
 ```
 
 ## Run
@@ -10,7 +10,7 @@ docker build -t cellxgenevipgataway:latest .
 docker run -it --rm \
 -v ./cellxgene-data:/cellxgene-data \
 -p 50015:5005 \
-cellxgenevipgataway:latest
+cellxgenevipgateway:latest
 ```
 
 ## base
